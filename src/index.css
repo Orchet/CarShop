@@ -11,6 +11,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+	text-align: center;	
+	color:hwb(102 13% 58%);
+}
+
 .contenedor {
 	min-height: 100vh;
 	display: flex;
@@ -61,7 +66,8 @@ body {
 }
 
 .formulario input:focus,
-.formulario select:focus {
+.formulario select:focus,
+.formulario textarea:focus {
 	outline: none;
 	border: 2px solid #0085FF;
 }
@@ -104,3 +110,38 @@ body {
 .formulario input[type="radio"] {
 	width: auto;
 }
+
+textarea {
+	resize: none;
+	height: auto;
+}
+
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid;
+	border-color:darkslategrey;
+}
+
+table th, table td {
+	padding: 8px;
+	text-align: left;	
+}
+  
+table th {
+	background-color: rgb(185, 192, 205);
+}
+
+table tr:hover {
+	background-color: hwb(98 82% 14%);
+}
+
+
+.button-container {
+	display: flex;
+  }
+  
+
+

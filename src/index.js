@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Formulario from './App';
+import Cliente from './Cliente';
+import Vehiculo from './Vehiculo';
+import Servicios from './Servicios';
+import App from './Prueba';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Formulario />
+    <Cliente/>
   </React.StrictMode>
 );
 
