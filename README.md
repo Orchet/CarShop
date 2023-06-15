@@ -7,11 +7,11 @@
     <table>
         <tbody>
             <tr>
-                <td>1.</td>
+                <td>1</td>
                 <td>Descripción del Proyecto</td>
             </tr>
             <tr>
-                <td>2.</td>
+                <td>2</td>
                 <td>Desarrollo y Despliegue</td>
             </tr>	
         </tbody>
